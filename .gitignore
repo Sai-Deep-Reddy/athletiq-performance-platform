@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+*.db
+*.db-wal
+*.db-shm
+*.sqlite3
+
+# Node / Web
+node_modules/
+web/dist/
+web/dev-dist/
+web/coverage/
+*.tsbuildinfo
+
+# Environment & Secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Android / Gradle
+.gradle/
+.kotlin/
+**/build/
+android/.cxx/
+local.properties
+*.iml
+.idea/
+*.jks
+*.keystore
+
+# Sensitive local media / validation exports
+exam_videos/
+*.mp4
+*.mkv
+*.webm

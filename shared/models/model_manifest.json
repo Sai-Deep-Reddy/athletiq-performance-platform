@@ -1,0 +1,27 @@
+{
+  "manifest_version": 1,
+  "models": [
+    {
+      "id": "pose_landmarker_full",
+      "filename": "pose_landmarker_full.task",
+      "task": "PoseLandmarker",
+      "version": "mediapipe-pose-landmarker-full-float16-v1",
+      "source": "Google AI Edge MediaPipe Solutions (Pose Landmarker Full)",
+      "license": "Apache-2.0",
+      "size_bytes": 9398198,
+      "sha256": "4EAA5EB7A98365221087693FCC286334CF0858E2EB6E15B506AA4A7ECDCEC4AD",
+      "intended_use": "33-landmark 3D human pose estimation and person foreground segmentation mask for height, jump, sprint, and biomechanics engines"
+    },
+    {
+      "id": "hand_landmarker",
+      "filename": "hand_landmarker.task",
+      "task": "HandLandmarker",
+      "version": "mediapipe-hand-landmarker-float16-v1",
+      "source": "Google AI Edge MediaPipe Solutions (Hand Landmarker)",
+      "license": "Apache-2.0",
+      "size_bytes": 7819105,
+      "sha256": "FBC2A30080C3C557093B5DDFC334698132EB341044CCEE322CCF8BCF3607CDE1",
+      "intended_use": "Targeted 21-landmark hand ROI refinement for standing-reach baseline and vertical-jump apex index fingertip tracking"
+    }
+  ]
+}
